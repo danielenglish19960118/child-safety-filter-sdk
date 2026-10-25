@@ -1,95 +1,29 @@
 
-# 🐾 Garfield AI Voice Receptionist SaaS Platform
 
-> An enterprise-grade, comic-themed AI Voice Receptionist and Tenant Provisioning SaaS platform featuring Daniel Panda, Garfield, and the family ecosystem.
 
----
+> Enterprise-Grade Child Online Safety, CSAM/CSAE Prevention & NSFW Content Moderation SDK.
 
-## 🚀 Overview
-
-**Garfield AI SaaS** is a multi-tenant AI voice receptionist management platform designed for restaurants, SaaS customer service, pet clinics, and corporate switchboards. Powered by advanced Vapi voice pipelines, animated comic strips, 1,000-article dynamic libraries, and automated Gumroad licensing verification.
+`child-safety-filter` is a high-performance content moderation SDK designed specifically for tech companies, social platforms, real-time messaging apps, live-streaming interactions, and online education systems. It features embedded protected sensitive wordlists, leet-speak/evasion detection rules, and an in-memory matching engine that enables enterprise servers to intercept harmful, inappropriate, and child exploitation risks in milliseconds.
 
 ---
 
-## ✨ Key Features
+## 📦 Core Features
 
-- 🎙️ **AI Voice Receptionist & Call Simulator**: Fine-tune system prompts, voice presets, and test real-time simulated customer calls.
-- 📖 **Garfield Comics Gallery**: Interactive four-panel comic strips celebrating lasagna, naps, and SaaS workflows.
-- 🐼 **Daniel Panda's Wisdom Engine**: Dynamic daily quotes on Zen architecture, low-latency code, and backend stability.
-- 👨‍👩‍👧‍👦 **Family Introduction Directory**: Detailed profile cards for Garfield, Daniel Panda, Eric, Martine, Orla, Joe, Sadie, and Porter.
-- 💬 **Garfield Lounge Discord Integration**: Direct link and hub for community support, live discussions, and developer updates.
-- 🛡️ **Enterprise Security Access Gate**: Gumroad license key validation (`garfield` / `lasagna` demo keys).
-- ✨ **1,000 Particle Animation Engine**: Immersive background canvas with dynamic floating emojis and particle effects.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML5, Tailwind CSS, Custom Comic UI Components
-- **Animations & Icons**: FontAwesome 6.4.0, Google Fonts (Bangers, Comic Neue, Fredoka), HTML5 Canvas
-- **Deployment**: Vercel Serverless Hosting
-- **Verification**: Google Search Console Integration
+- 🚀 **Zero-Latency Matching**: Powered by in-memory Trie structures and pattern matching, individual string inspections run in under **1ms**, avoiding network round-trip overhead.
+- 🛡️ **CSAE & Child Safety**: Proactively prevents child online exploitation, grooming, and inappropriate NSFW content.
+- 🔒 **Enterprise-Grade Security**: Core sensitive lexicons and moderation rules are bundled and protected, preventing client-side reverse engineering or dictionary leaks.
+- 🔍 **Anti-Evasion & Leet-Speak Detection**: Automatically normalizes text to defeat evasion techniques such as whitespace separation, symbol substitution, and leet-speak (e.g., `p0rn`, `s3x`).
+- 🛠️ **Full TypeScript Support**: Provides comprehensive type definitions and predictable moderation result objects.
+- 🔄 **Multi-Tenant Dynamic Rules**: Supports runtime overlays for tenant-specific custom blocking rules.
 
 ---
 
-## 📦 Project Structure
+## 💻 Installation
 
-```text
-garfield-ai-receptionist-saas/
-├── public/
-│   └── index.html         <-- Main SaaS application & comic gallery
-├── api/                   <-- Serverless webhook endpoints
-├── package.json           <-- Project dependencies & scripts
-└── README.md              <-- Documentation
+### 1. Configure GitHub Package Registry (`.npmrc`)
 
-```
+This SDK is a private/enterprise GitHub Package. Create or edit the `.npmrc` file in your project root directory:
 
----
-
-## 💻 Local Development & Deployment
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/your-username/garfield-ai-receptionist-saas.git](https://github.com/your-username/garfield-ai-receptionist-saas.git)
-cd garfield-ai-receptionist-saas
-
-```
-
-### 2. Run Locally
-
-Simply open `public/index.html` in your modern web browser or serve it via a local static server (e.g., Live Server in VS Code).
-
-### 3. Deploy to Vercel
-
-```bash
-vercel --prod
-
-```
-
----
-
-## 🔑 Security & License Verification
-
-To unlock tenant provisioning and dashboard tools, enter a valid Gumroad license key or use the demo keys in the Access Gate:
-
-* **Demo Key 1**: `garfield`
-* **Demo Key 2**: `lasagna`
-
----
-
-## 💬 Community & Support
-
-* **Garfield Lounge Discord**: [Join our community invite](https://discord.com/invite/hope-for-broken-hearts-875258067166580737)
-* **Gumroad Store**: [Get your commercial license](https://www.google.com/search?q=https://danielverse87.gumroad.com/l/ai-receptionist)
-* **Instagram**: [@lasagna_and_light](https://www.instagram.com/lasagna_and_light/)
-
----
-
-## 📄 License
-
-© 2026 Garfield Enterprise Inc. All rights reserved.
-
-```
-
-```
+```ini
+@your-github-username:registry=[https://npm.pkg.github.com](https://npm.pkg.github.com)
+//[npm.pkg.github.com/:_authToken=YOUR_GITHUB_PAT](https://npm.pkg.github.com/:_authToken=YOUR_GITHUB_PAT)
